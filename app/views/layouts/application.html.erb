@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TheGossipProject</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <nav class="navbar navbar-light bg-light" style="background-color: #E2BDF8;">
+  <a class="navbar-brand" href="http://localhost:3000/welcome_page">PAGE D'ACCUEIL</a>"     "
+  <a class="navbar-brand" href="http://localhost:3000/contact">CONTACT</a>"     "
+  <a class="navbar-brand" href="http://localhost:3000/team">LA TEAM</a>"      "
+
+
+</nav>
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
